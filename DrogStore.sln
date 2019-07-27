@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrogStore", "DrogStore\DrogStore.csproj", "{9246F113-9A26-4CB6-8840-66F0F297431D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{EF1BD059-6D41-451E-BB0A-0F99BEAFBF9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{187F4FE2-FE09-4BE2-AFC9-B2648402433B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{34EB1CCF-F78D-41A1-A144-EE5AF3CAD28C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrogStoreApi", "DrogStoreApi\DrogStoreApi.csproj", "{2DD78196-DF5C-48E8-989B-E9A01E7D2087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrogStoreDomain", "DrogStoreDomain\DrogStoreDomain.csproj", "{CE1E88DE-24B4-44BB-9B9B-5F6545FAAA14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrogStoreInfra", "DrogStoreInfra\DrogStoreInfra.csproj", "{A13EB8E9-342C-420A-A7C0-30FEBDC772F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Busness", "Busness", "{96EF1544-F18C-4998-A54C-20BD748201F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{9972745E-040A-4065-A4EE-1F867B39920D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +25,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9246F113-9A26-4CB6-8840-66F0F297431D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9246F113-9A26-4CB6-8840-66F0F297431D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9246F113-9A26-4CB6-8840-66F0F297431D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9246F113-9A26-4CB6-8840-66F0F297431D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD78196-DF5C-48E8-989B-E9A01E7D2087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD78196-DF5C-48E8-989B-E9A01E7D2087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD78196-DF5C-48E8-989B-E9A01E7D2087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD78196-DF5C-48E8-989B-E9A01E7D2087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE1E88DE-24B4-44BB-9B9B-5F6545FAAA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1E88DE-24B4-44BB-9B9B-5F6545FAAA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1E88DE-24B4-44BB-9B9B-5F6545FAAA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1E88DE-24B4-44BB-9B9B-5F6545FAAA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13EB8E9-342C-420A-A7C0-30FEBDC772F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13EB8E9-342C-420A-A7C0-30FEBDC772F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13EB8E9-342C-420A-A7C0-30FEBDC772F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13EB8E9-342C-420A-A7C0-30FEBDC772F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9972745E-040A-4065-A4EE-1F867B39920D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9972745E-040A-4065-A4EE-1F867B39920D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9972745E-040A-4065-A4EE-1F867B39920D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9972745E-040A-4065-A4EE-1F867B39920D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DD78196-DF5C-48E8-989B-E9A01E7D2087} = {34EB1CCF-F78D-41A1-A144-EE5AF3CAD28C}
+		{CE1E88DE-24B4-44BB-9B9B-5F6545FAAA14} = {EF1BD059-6D41-451E-BB0A-0F99BEAFBF9F}
+		{A13EB8E9-342C-420A-A7C0-30FEBDC772F8} = {187F4FE2-FE09-4BE2-AFC9-B2648402433B}
+		{9972745E-040A-4065-A4EE-1F867B39920D} = {96EF1544-F18C-4998-A54C-20BD748201F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B5FF8D5-9635-472A-A4DD-18F0892AA98C}
